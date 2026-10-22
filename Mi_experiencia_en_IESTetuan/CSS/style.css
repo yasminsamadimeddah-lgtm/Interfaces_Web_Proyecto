@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tenor Sans', sans-serif;
+    h3{ /*Todos los tituos son h3, por la tanto seran de color verde oscuro en toda la web*/
+        color: #4a5d31;
+        margin-bottom: 10px;
+    }
+}
+header{
+    img{
+        width: 30px;
+        height: auto;
+    }
+background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../img/entrada.png");
+background-size: cover; /*Hacer que la imagen de background ocupe todo*/
+    color: aliceblue; /*Todas las letras seran de color blanco en el header*/
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    height: 350px;
+  border-radius: 0 0 15px 15px; /*Las esquinas superiores estaran normales mientras que las esquinas inferiores seran mas redondeados*/
+
+  .titulo{
+    font-size: 32px;
+    margin: 50px;
+    padding-top: 60px;
+  }
+
+  .indice{
+
+    text-align: right; /*Hace que el tindice este el la derecha en vez de la izquierda que es como viene predeterminado*/
+    margin: 20px;
+    background-color: rgba(255,255,255,0.20); /*El fondo es balanco pero con opacidad*/
+    border-color: aliceblue; /*Los bordes seran de color blanco**/
+    border: 1px, outset;
+    border-radius: 12px; /*Esquinas mas redondeadas*/
+    padding: 5px;
+  }
+
+  ul {
+    list-style: none; 
+   
+}
+a{
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(171, 196, 178);
+    font-size: 15px;
+    transition: transform 0.3s ease;
+}
+
+}
+
+
+.inicio {
+    border-radius: 5px;
+    background-color: rgb(227, 250, 201);
+    color: rgb(21, 52, 19);
+    display: flex;
+    width: 90%;   /* Ocupa el 90% de la pantalla en móviles o ventanas pequeñas (el tamaño seria el 90% de los pixeles que hemos establecido como maximos, en este caso 1200px) */
+    max-width: 1200px;   /* Como máximo medirá 1200px en pantallas grandes */
+    margin: 20px auto;     
+    
+    padding: 10px; /* Añade un poco de espacio interno para que el texto no toque los bordes */
+    justify-content: center; 
+    align-items: center;
+    text-align: center; /*Centrar el texto*/
+    
+}
+.pagina1{
+    width: 90%; /* Ocupa el 90% de la pantalla en móviles o ventanas pequeñas (el tamaño sera el 90% de los px establecidos como maximo, en este caso 1200px */
+    max-width: 1200px; /* Como máximo medirá 1200px en pantallas grandes */
+    margin: 20px auto; /* Se centra horizontalmente */
+        color: gray;
+
+    padding: 10px;          /* Añade un poco de espacio interno para que el texto no toque los bordes */
+    justify-content: center;
+}
+
+
+.experiencia{
+        img{
+            width: 320px; /*Tamaño en cuanto a la anchura*/
+    height: auto;
+    border-radius: 15px; /*Hace que las esquinas esten mas redondeadas*/
+        }
+        
+.cuadro1, .cuadro2 {
+    display: flex; /*Convierte el contenedor en una caja flexible*/
+    align-items: center; /*Centra las cosas*/
+    margin-bottom: 25px; /*Deja margenes con la parte inferior*/
+}
+
+.texto-caja {
+    background-color: rgb(238, 249, 216);
+    padding: 50px;
+    border-radius: 15px;
+    flex: 1; /* Ocupa el espacio correspondiente */
+}
+
+.texto-caja h4 {
+    margin-top: 0;
+    color: #4a5d31;
+}
+
+.cuadro2 {/* Invierte el orden del segundo cuadro (pone la foto a la izquierda automáticamente)*/
+    flex-direction: row-reverse;
+}
+}
+.info_favicono{
+    display: flex; /*Convierte el contenedor en una caja flexible */
+    align-items: center;
+    margin-bottom: 25px;
+    img{
+        margin: 20px;
+        max-width: 150px;
+        border: 10px solid;
+        border-radius: 5px;
+        border-color: #4a5d31;
+    }
+}
+.boton_subir{
+  display: flex; /*Convierte el contenedor en una caja flexible*/
+    justify-content: flex-end; /*Empuja todo el contenido (la flecha) hacia la derecha*/
+    padding: 10px 20px;
+
+}
+.subir{
+  
+  margin: 20px;
+  width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(181, 223, 157);
+    }
+    button:hover{
+        background-color: #94ab77;
+    
+}
+
+footer {
+    a {
+        color: aliceblue; /*Color de los enlaces en blanco*/
+    }
+
+    a:hover {
+        color: rgb(238, 249, 216); /*Al pasar el cursor por encima cambia el color del enlace*/
+    }
+
+    img {
+        margin: 20px;
+        height: 50px;
+    }
+    margin-bottom: 0;
+    border-radius: 5px 5px 0 0; /*Solo ajusta los bordes de la parte superior, mientras que los de abajo no se modifican*/
+    background-color: rgb(77, 88, 54);
+    padding: 30px;
+    align-items: center;
+    text-align: center; /*Centrar los textos*/
+}
